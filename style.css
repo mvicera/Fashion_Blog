@@ -1,0 +1,170 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+a {
+  font-style: normal;
+  color: #D91818;
+  text-decoration: none;
+}
+
+.main-title {
+  font-size: 35px;
+  color: red;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+
+.sub-title {
+  font-style: normal;
+  font-size: 20px;
+  color: gray;
+  font-weight: 100;
+  font-family: sans-serif;
+  padding-left: 15px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.col-4, .col-8,.col-2,.col-12 {
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  width: 16.66666666666%;
+  border: #000 2px solid;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.col-8 { width: 66.666666%;
+}
+
+.col-4 { width: 33.333333%;
+}
+
+.nav2 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  padding-top: 30px;
+}
+
+.nav2-spec {
+  display: inline;
+  padding: 5px 10px 0px 5px;
+}
+
+.about {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.lefttext{
+  padding-left: 20px;
+  padding-right: 10px;
+  color: lightgray;
+}
+
+.date {
+  font-family: serif;
+  font-weight: 100;
+  padding-top: 30px;
+  color: lightgray;
+}
+
+.title {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.first-letter {
+  font-style: normal;
+  font-size: 65px;
+  color: lightgray;
+  float: left;
+  padding: 21px 10px 21px 0;
+}
+
+.border {
+  border-right: #fff 1px solid;
+}
+
+.border2 {
+  border-right:gray 1px solid;
+}
+
+.border-bottom {
+  border-bottom:lightgray 1px solid;
+  margin: 20px 20px 20px 0;
+}
+
+.border-bottom2 {
+  border-bottom:lightgray 1px solid;
+  margin: 20px;
+}
+
+.continues {
+  text-align: right;
+  color: #D91818;
+  padding-right: 20px;
+  font-weight: 800;
+}
+
+.image {
+  width: 480px;
+}
+
+.ad {
+  width: 180px;
+  padding: 10px 0 10px 28px;
+}
+
+.pop-ps {
+  padding:0px 0px 20px 50px;
+}
+
+.pop {
+  color: #D91818;
+  list-style-image: url(assets/p.png);
+  padding-top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.thx{
+  color: white;
+}
+
+h4 {
+  padding-left: 20px;
+  color: gray;
+  font-size: 15px;
+}
+
+h6 {
+  color: lightgray;
+  font-weight: 100;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+p {
+  line-height: 20px;
+  font-size: 12px;
+}
